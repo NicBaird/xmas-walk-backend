@@ -1,16 +1,22 @@
 {
   "locations": [
     {
+      "name": "Steph's House",
+      "address": "20 Julian Ave.",
+      "description": "The traditional starting spot.",
+      "image": "img/20-julian.jpg"
+    },
+    {
       "name": "West Park Bowling",
       "address": "1205 Wellington St. W",
       "description": "Who will be this year's bowling champion?",
       "image": "img/west-park-bowling.jpg"
     },
     {
-      "name": "The Red Lion",
-      "address": "123 Main St, Toronto",
+      "name": "Elmdale Oyster House & Tavern",
+      "address": "1084 Wellington St. W",
       "description": "Cozy pub with great ales",
-      "image": "https://example.com/redlion.jpg"
+      "image": "img/elmdale-oyster-house.jpg"
     },
     {
       "name": "The Red Lion",
