@@ -1,6 +1,42 @@
 {
   "locations": [
     {
+      "name": "West Park Bowling",
+      "address": "1205 Wellington St. W",
+      "description": "Who will be this year's bowling champion?",
+      "image": "img/west-park-bowling.jpg"
+    },
+    {
+      "name": "The Red Lion",
+      "address": "123 Main St, Toronto",
+      "description": "Cozy pub with great ales",
+      "image": "https://example.com/redlion.jpg"
+    },
+    {
+      "name": "The Red Lion",
+      "address": "123 Main St, Toronto",
+      "description": "Cozy pub with great ales",
+      "image": "https://example.com/redlion.jpg"
+    },
+    {
+      "name": "The Red Lion",
+      "address": "123 Main St, Toronto",
+      "description": "Cozy pub with great ales",
+      "image": "https://example.com/redlion.jpg"
+    },
+    {
+      "name": "The Red Lion",
+      "address": "123 Main St, Toronto",
+      "description": "Cozy pub with great ales",
+      "image": "https://example.com/redlion.jpg"
+    },
+    {
+      "name": "The Red Lion",
+      "address": "123 Main St, Toronto",
+      "description": "Cozy pub with great ales",
+      "image": "https://example.com/redlion.jpg"
+    },
+    {
       "name": "The Red Lion",
       "address": "123 Main St, Toronto",
       "description": "Cozy pub with great ales",
