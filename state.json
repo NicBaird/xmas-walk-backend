@@ -15,14 +15,14 @@
     {
       "name": "Elmdale Oyster House & Tavern",
       "address": "1084 Wellington St. W",
-      "description": "Cozy pub with great ales",
+      "description": "Oysters.",
       "image": "img/elmdale-oyster-house.jpg"
     },
     {
-      "name": "The Red Lion",
-      "address": "123 Main St, Toronto",
-      "description": "Cozy pub with great ales",
-      "image": "https://example.com/redlion.jpg"
+      "name": "The Hintonburg Public House",
+      "address": "1020 Wellington St. W",
+      "description": "Holiday cocktails.",
+      "image": "img/hintonburg-public-house.jpg"
     },
     {
       "name": "The Red Lion",
