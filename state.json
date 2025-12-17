@@ -1,5 +1,23 @@
 {
-  "current": "Pub One",
-  "next": "Pub Two",
-  "mode": "at_location"
+  "locations": [
+    {
+      "name": "The Red Lion",
+      "address": "123 Main St, Toronto",
+      "description": "Cozy pub with great ales",
+      "image": "https://example.com/redlion.jpg"
+    },
+    {
+      "name": "The Dog & Duck",
+      "address": "456 Queen St, Toronto",
+      "description": "Classic pub fare and beers",
+      "image": "https://example.com/dogduck.jpg"
+    }
+  ],
+  "state": {
+    "current": 0,    
+    "next": 1,    
+    "status": "At Location",
+    "stopNumber": 1,
+    "custom": null    
+  }
 }
