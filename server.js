@@ -58,7 +58,15 @@ app.post("/update", (req, res) => {
     return res.status(403).json({ error: "Forbidden" });
   }
 
-  const { current, next, status, stopNumber, custom } = req.body;
+  const {
+  current,
+  next,
+  status,
+  stopNumber,
+  currentCustom,
+  nextCustom
+} = req.body;
+
   const data = readData();
 
   // Validate status
@@ -68,11 +76,15 @@ app.post("/update", (req, res) => {
   }
 
   // Update state
-  data.state.current = current !== null ? current : null;
-  data.state.next = next !== null ? next : null;
-  data.state.status = status;
-  data.state.stopNumber = parseInt(stopNumber) || 1;
-  data.state.custom = custom || null;
+    data.state.current = current !== null ? current : null;
+    data.state.next = next !== null ? next : null;
+    data.state.status = status;
+    data.state.stopNumber = parseInt(stopNumber) || 1;
+
+    // ✅ STORE CUSTOM FIELDS PROPERLY
+    data.state.currentCustom = currentCustom || null;
+    data.state.nextCustom = nextCustom || null;
+
 
   writeData(data);
   res.json({ success: true, state: data.state });
