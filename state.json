@@ -86,10 +86,10 @@
     "stopNumber": 1,
     "currentCustom": null,
     "nextCustom": {
-      "name": "Surprise Bar",
-      "address": "789 King St, Toronto",
-      "description": "Unplanned stop for shots",
-      "image": "https://example.com/surprise.jpg"
+      "name": "Unknown",
+      "address": "TBD",
+      "description": "",
+      "image": "img/drunk-santa.jpg"
     } 
   }
 }
