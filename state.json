@@ -1,7 +1,7 @@
 {
   "locations": [
     {
-      "name": "Steph's House",
+      "name": "Stephe's House",
       "address": "20 Julian Ave.",
       "description": "The traditional starting spot.",
       "image": "img/20-julian.jpg"
@@ -25,41 +25,71 @@
       "image": "img/hintonburg-public-house.jpg"
     },
     {
-      "name": "The Red Lion",
-      "address": "123 Main St, Toronto",
-      "description": "Cozy pub with great ales",
-      "image": "https://example.com/redlion.jpg"
+      "name": "Pubwells",
+      "address": "96 Preston St",
+      "description": "Checking out their Christmas theme.",
+      "image": "img/pubwells.jpg"
     },
     {
-      "name": "The Red Lion",
-      "address": "123 Main St, Toronto",
-      "description": "Cozy pub with great ales",
-      "image": "https://example.com/redlion.jpg"
+      "name": "Natural History Society",
+      "address": "835 Somerset St W",
+      "description": "Just a cool bar to visit.",
+      "image": "img/natural-history-society.jpg"
     },
     {
-      "name": "The Red Lion",
-      "address": "123 Main St, Toronto",
-      "description": "Cozy pub with great ales",
-      "image": "https://example.com/redlion.jpg"
+      "name": "Babar",
+      "address": "826 Somerset St W",
+      "description": "A holiday cocktail & eggnog cheesecake.",
+      "image": "img/babar.jpg"
     },
     {
-      "name": "The Red Lion",
-      "address": "123 Main St, Toronto",
-      "description": "Cozy pub with great ales",
-      "image": "https://example.com/redlion.jpg"
+      "name": "Den Den Claw",
+      "address": "691 Somerset St W",
+      "description": "Try your luck for some cheap stocking stuffers.",
+      "image": "img/den-den-claw.jpg"
     },
     {
-      "name": "The Dog & Duck",
-      "address": "456 Queen St, Toronto",
-      "description": "Classic pub fare and beers",
-      "image": "https://example.com/dogduck.jpg"
+      "name": "Spark Beer & Pizza",
+      "address": "702 Somerset St W",
+      "description": "Pizza and Beer.",
+      "image": "img/spark.jpg"
+    },
+    {
+      "name": "Rabbit Hole",
+      "address": "208 Sparks St",
+      "description": "Anna suggested this one.",
+      "image": "img/rabbit-hole.jpg"
+    },
+    {
+      "name": "Elgin Beer Project & Good Neighbour",
+      "address": "399 Elgin St",
+      "description": "​One street. Two pop-ups. Whether you’re feeling naughty or nice (or both in the same night), Miracle has the perfect bar to stuff your stocking.",
+      "image": "img/miracle.jpg"
+    },
+    {
+      "name": "Zoe's",
+      "address": "1 Rideau St",
+      "description": "Opulent, chandelier-bedecked spot for martinis & light bites in the Fairmont Chateau Laurier.",
+      "image": "img/zoe.jpg"
+    },
+    {
+      "name": "Escape Lounge",
+      "address": "292 Elgin St",
+      "description": "I booked two escape rooms for whoever is left!",
+      "image": "img/escape-manor.jpg"
     }
   ],
   "state": {
     "current": 0,    
-    "next": 1,    
+    "next": null,    
     "status": "At Location",
     "stopNumber": 1,
-    "custom": null    
+    "currentCustom": null,
+    "nextCustom": {
+      "name": "Surprise Bar",
+      "address": "789 King St, Toronto",
+      "description": "Unplanned stop for shots",
+      "image": "https://example.com/surprise.jpg"
+    } 
   }
 }
